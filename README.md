@@ -1,2 +1,2 @@
 # LizardMedia_OrderCustomNumber
-MAgento 2 module for order custom number feature.
+Magento 2 module for order custom number feature.
