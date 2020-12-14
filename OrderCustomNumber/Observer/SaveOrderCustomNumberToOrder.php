@@ -3,8 +3,8 @@ namespace LizardMedia\OrderCustomNumber\Observer;
 
 use Magento\Framework\Event\Observer as EventObserver;
 use Magento\Framework\Event\ObserverInterface;
-use Magento\Quote\Model\QuoteRepository;
 use Magento\Quote\Model\Quote;
+use Magento\Quote\Model\QuoteRepository;
 
 /**
  * Class SaveOrderCustomNumberToOrder
@@ -34,9 +34,8 @@ class SaveOrderCustomNumberToOrder implements ObserverInterface
         $order = $observer->getOrder();
         /** @var Quote $quote */
         $quote = $this->quoteRepository->get($order->getQuoteId());
-        $order->setOrderCustomNumber( $quote->getOrderCustomNumber() );
+        $order->setOrderCustomNumber($quote->getOrderCustomNumber());
 
         return $this;
     }
-
 }
