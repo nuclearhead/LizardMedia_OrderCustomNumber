@@ -6,6 +6,10 @@ use Magento\Checkout\Api\Data\ShippingInformationInterface;
 use Magento\Checkout\Model\ShippingInformationManagement;
 use Magento\Quote\Model\QuoteRepository;
 
+/**
+ * Class ShippingInformationManagementPlugin
+ * @package LizardMedia\OrderCustomNumber\Plugin\Model\Checkout
+ */
 class ShippingInformationManagementPlugin
 {
 
