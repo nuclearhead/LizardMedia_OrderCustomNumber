@@ -11,10 +11,6 @@ use Magento\Framework\View\Element\Template\Context;
  */
 class OrderCustomNumberInfo extends \Magento\Framework\View\Element\Template
 {
-    /**
-     * @var string
-     */
-    protected $_template = 'LizardMedia_OrderCustomNumber::order/view.phtml';
 
     /**
      * Core registry
@@ -41,7 +37,6 @@ class OrderCustomNumberInfo extends \Magento\Framework\View\Element\Template
 
     /**
      * Gets Order Custom Number
-     *
      * @return string
      */
     public function getOrderCustomNumber() : string
