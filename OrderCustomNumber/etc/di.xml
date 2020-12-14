@@ -6,4 +6,7 @@
             </argument>
         </arguments>
     </virtualType>
+    <type name="Magento\Checkout\Model\ShippingInformationManagement">
+        <plugin name="order_custom_number" type="LizardMedia\OrderCustomNumber\Plugin\Model\Checkout\ShippingInformationManagementPlugin" sortOrder="10"/>
+    </type>
 </config>

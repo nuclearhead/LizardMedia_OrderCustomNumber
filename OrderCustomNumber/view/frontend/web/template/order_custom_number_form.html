@@ -1,0 +1,10 @@
+<div>
+    <form id="order-custom-number-form" class="form" data-bind="attr: {'data-hasrequired': $t('* Required Fields')}">
+        <fieldset class="fieldset">
+            <legend data-bind="i18n: 'Please set your custom order number.'"></legend>
+            <!-- ko foreach: getRegion('order-custom-number-form-fields') -->
+            <!-- ko template: getTemplate() --><!-- /ko -->
+            <!--/ko-->
+        </fieldset>
+    </form>
+</div>

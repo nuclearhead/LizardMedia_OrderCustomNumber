@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+    <referenceContainer name="page.main.title">
+        <block class="LizardMedia\OrderCustomNumber\Block\Order\OrderCustomNumberInfo" name="order.custom_number" template="LizardMedia_OrderCustomNumber::order/order-custom-number.phtml" after="order.status" />
+    </referenceContainer>
+    </body>
+</page>
