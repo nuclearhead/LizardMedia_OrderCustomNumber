@@ -9,12 +9,16 @@ use Magento\Framework\Setup\ModuleDataSetupInterface;
 use Magento\Sales\Model\Order;
 use Magento\Sales\Setup\SalesSetupFactory;
 
+/**
+ * Class InstallData
+ * @package LizardMedia\OrderCustomNumber\Setup
+ */
 class InstallData implements InstallDataInterface
 {
     /**
      * @var SalesSetupFactory
      */
-    protected $salesSetupFactory;
+    protected SalesSetupFactory $salesSetupFactory;
 
     /**
      * @param SalesSetupFactory $salesSetupFactory
